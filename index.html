@@ -1,1 +1,17 @@
+# Va dans ton dossier local
+cd chemin/vers/ton/projet
 
+# Initialise Git (si ce n’est pas déjà fait)
+git init
+
+# Lie ton dossier au nouveau dépôt (remplace ton-pseudo et nom-du-depot)
+git remote add origin https://github.com/ton-pseudo/nom-du-depot.git
+
+# Ajoute tous les fichiers
+git add .
+
+# Fais ton premier commit
+git commit -m "Premier commit après recréation"
+
+# Envoie le code sur GitHub
+git push -u origin main
